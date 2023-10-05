@@ -1,0 +1,114 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+html {
+  font-size: 62.5%
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color:rgb(79, 79, 79);
+  margin-top: 15rem;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+#result,
+h1 {
+  font-family: 'Chivo', sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 20rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+
+}
+
+#showMe{
+  display: inline-block;
+}
+
+form, 
+button {
+  margin-top: 4rem;
+  border-radius: 5%;
+}
+
+#p4 {
+  padding-bottom: 4rem;
+}
+
+#p5 {
+  padding: 1rem;
+  font-size: 30rem;
+  color:rgb(79, 79, 79);
+  margin-top: 0;
+}
+
+.userSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.radial-gradient {
+  width: 100%;
+  height: auto;
+}
+
+.radial-gradient {
+  background-image: radial-gradient(
+    rgba(211, 213, 191, 0.41) 0%,
+    rgba(224, 146, 63, 0.697) 100%
+  );
+}
+
+small {
+  text-align: center;
+}
+
+/*radial gradient inspired from code pen https://codepen.io/thecodercoder/pen/rPrBzo*/
+
+/*radial gradient code was taken from codepen*/
+
+p { 
+  color: rgb(118, 118, 118);
+  font-size: 1.8rem;
+  padding: 2rem 30rem;
+}
+
+@media screen and (max-width: 500px) {
+  #month,
+  #date,
+  #showMe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  html {
+    font-size: 30%;
+  }
+}
